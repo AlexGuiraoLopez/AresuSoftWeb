@@ -32,7 +32,6 @@ body{
     background-color: #2FE014;
     margin:auto;
 }
-
 .navMenu li a{
     text-decoration: none;
     color:black;
@@ -40,16 +39,13 @@ body{
     font-size: 28px;
     display: block; /*Crea bloques separados*/
 }
-
 .navMenu li{
     display:inline-block;
     text-align: center;
 }
-
-.navMenu li a:hover{
+.navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
     background: rgb(102, 255, 0);
 }
-
 .descriptionBack{
     background:black;
     width: 600px;
@@ -62,6 +58,13 @@ body{
     font-size: 38px;
     margin-top: 50px;
 }
+.appsTitle{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /*Descripción*/
 .description{
     text-align: justify;
@@ -70,8 +73,8 @@ body{
     font-size: 18px;
     margin-left: 25px;
     margin-right: 25px;
-    
 }
+
 /*Avatar dentro de un círculo*/
 .circle{
     width:200px;
@@ -83,9 +86,64 @@ body{
     margin-right: 25px;
     float: left;
 }
-
 .circle > .image{
     width:200px;
     height:200px;
+    border-radius: 100%;
+}
+
+/*APPS*/
+.appsSection{
+    width: 1600px;
+    height: 1600px;
+    background: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*Images*/
+.leftImg{
+    width: 350px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    float: left;
+}
+.rightImg{
+    width: 350px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    float: right;
+}
+h2.appName{
+    font-size: 25px;
+    color: white;
+    /*margin-top: 25px; No entiendo por que me baja todo el cuadro negro y no solo el título*/
+    margin-left: 25px;
+}
+.appDescription{
+    color: white;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.circleMini{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    color: pink;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 80px;
+}
+
+.circleMini >.languageLogo{
+    width:80px;
+    height:80px;
     border-radius: 100%;
 }
