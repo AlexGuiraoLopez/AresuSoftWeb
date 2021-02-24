@@ -1,0 +1,91 @@
+/*Reset valores por defecto*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    font-family: Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+    background-color: black;    /*Color de fondo*/
+    background-image: url("Assets/Img/matrixKatakana.png"); /*Imagen de fondo*/
+}
+
+/*Menú de navegación*/
+.navMenu{
+    list-style: none;
+    padding: 0;
+    background-color: #2FE014;
+    margin:auto;
+}
+
+.navMenu li a{
+    text-decoration: none;
+    color:black;
+    padding:20px;
+    font-size: 28px;
+    display: block; /*Crea bloques separados*/
+}
+
+.navMenu li{
+    display:inline-block;
+    text-align: center;
+}
+
+.navMenu li a:hover{
+    background: rgb(102, 255, 0);
+}
+
+.descriptionBack{
+    background:black;
+    width: 600px;
+    height: 450px;
+    margin-left: 25px;
+}
+/*Título*/
+.header{
+    color: white;
+    font-size: 38px;
+    margin-top: 50px;
+}
+/*Descripción*/
+.description{
+    text-align: justify;
+    line-height: 25px;
+    color:white;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+/*Avatar dentro de un círculo*/
+.circle{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background: violet;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+
+.circle > .image{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+}
