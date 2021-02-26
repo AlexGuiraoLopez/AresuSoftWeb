@@ -148,3 +148,9 @@ h2.appName{
     height:80px;
     border-radius: 100%;
 }
+
+/*AUDIO*/
+.audio{
+    margin-top: 20px;
+    margin-left: 30px;
+}
