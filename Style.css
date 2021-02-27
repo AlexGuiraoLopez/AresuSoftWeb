@@ -30,7 +30,7 @@ body{
     list-style: none;
     padding: 0;
     background-color: #2FE014;
-    margin:auto;
+    margin-bottom: 25px;
 }
 .navMenu li a{
     text-decoration: none;
@@ -46,21 +46,28 @@ body{
 .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
     background: rgb(102, 255, 0);
 }
-.descriptionBack{
+.myDescriptionL{
     background:black;
     width: 600px;
     height: 450px;
     margin-left: 25px;
+    float: left;
+}
+.myDescriptionR{
+    background:black;
+    width: 600px;
+    height: 450px;
+    margin-right: 25px;
+    float: right;
 }
 /*Título*/
-.header{
+.myName{
     color: white;
     font-size: 38px;
-    margin-top: 50px;
 }
 
 /*Descripción*/
-.description{
+.myDescriptionText{
     text-align: justify;
     line-height: 25px;
     color:white;
@@ -80,7 +87,7 @@ body{
     margin-right: 25px;
     float: left;
 }
-.circle > .image{
+.circle > .image{ /*Selector de fills*/
     width:200px;
     height:200px;
     border-radius: 100%;
@@ -91,66 +98,84 @@ body{
     color: white;
     font-size: 40px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .appsSection{
-    width: 1600px;
-    height: 1600px;
+    width: 100vw; /*100% del ancho de la pantalla*/
     background: black;
-    margin-left: 200px; /*No creo que sea óptimo centrarlo así*/
+    margin-left: 25px; /*No creo que sea óptimo centrarlo así*/
     margin-right: 25px;
+    padding: 10px;
+}
+.appArticle{
+   padding: 10px;
+}
+.appDescription{
+    height: 250px;
+    color: white;
+    text-align: justify;
 }
 
 /*Images*/
 .leftImg{
     width: 350px;
     height: 250px;
-    margin-left: 25px;
-    margin-top: 25px;
     margin-right: 25px;
-    margin-bottom: 15px;
     float: left;
 }
 .rightImg{
     width: 350px;
     height: 250px;
     margin-left: 25px;
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
     float: right;
 }
+
 h2.appName{
     font-size: 25px;
     color: white;
-    /*margin-top: 25px; No entiendo por que me baja todo el cuadro negro y no solo el título*/
-    margin-left: 25px;
-}
-.appDescription{
-    color: white;
-    margin-top: 25px;
-    text-align: justify;
-}
-
-.circleMini{
-    width:80px;
-    height:80px;
-    border-radius: 100%;
-    color: pink;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 80px;
-}
-
-.circleMini >.languageLogo{
-    width:80px;
-    height:80px;
-    border-radius: 100%;
 }
 
 /*AUDIO*/
+.soundSection{
+    background: black;
+    width: 600px;
+    height: 450px;
+    margin-top: 25px;
+}
+
+.soundArticle h2 ~ p{ /*Selector germà general*/
+    color:white;
+    margin-left: 25px;
+}
 .audio{
     margin-top: 20px;
     margin-left: 30px;
+}
+
+/*CONTACT*/
+form{
+    width:500px;
+    height: 350px;
+    background:rgba(47, 116, 30, 0.9);
+    padding:20px 20px;
+    border-radius: 7px;
+    margin-left: 25px;
+}
+
+form > h1{
+    font-size: 40px;
+    color:white;
+    padding: 5px;
+}
+
+input, textarea{
+    width: 95%;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+#boton{
+    font-size: 20px;
+    width: 25%;
+    background: rgb(96, 177, 243);
 }
