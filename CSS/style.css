@@ -1,0 +1,115 @@
+body{
+    font-family: Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+    background-color: black;    /*Color de fondo*/
+    background-image: url("../assets/img/matrixKatakana.png"); /*Imagen de fondo*/
+}
+
+.menu{
+    display: flex;
+    flex-flow: column nowrap ;
+}
+    .navMenu{ /*Menú de navegación*/
+        list-style: none;
+        padding: 0;
+        margin:0;
+        background-color: #000000;
+        position: sticky;
+        top:0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+        .navMenu li a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            padding:20px;
+            font-size: 28px;
+            display: block; /*Crea bloques separados*/
+            flex-flow: row nowrap;
+        }
+            .navMenu li{
+                display:inline-block;
+                text-align: center;
+            }
+            .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
+                background: rgb(102, 255, 0);
+            }
+    .transparentBox{
+        background: white;
+        height: 500px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+        .titleBox{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            margin:0;
+            height: 100%;
+        }
+            .title{
+               align-self: center;
+            }
+
+.myDescriptionL{
+    background:black;
+    width: 600px;
+    height: 450px;
+    margin-left: 25px;
+    float: left;
+}
+
+/*Título*/
+.myName{
+    color: white;
+    font-size: 38px;
+}
+
+/*Descripción*/
+.myDescriptionText{
+    text-align: justify;
+    line-height: 25px;
+    color:white;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*Avatar dentro de un círculo*/
+.circle{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background: violet;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+.circle > .image{ /*Selector de fills*/
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+}
+
+/*Images*/
+.leftImg{
+    width: 350px;
+    height: 250px;
+    margin-right: 25px;
+    float: left;
+}
+.rightImg{
+    width: 350px;
+    height: 250px;
+    margin-left: 25px;
+    float: right;
+}
+
+h2.appName{
+    font-size: 25px;
+    color: white;
+}
