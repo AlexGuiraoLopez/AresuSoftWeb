@@ -113,7 +113,6 @@ box-sizing: border-box;
         height: 10vw;
     }
         .navMenu li a{
-           
             padding:10px;
             font-size: 4vw;
             display: block; /*Crea bloques separados*/
@@ -125,7 +124,6 @@ box-sizing: border-box;
     .titleBox h2{
         font-size: 4vw;
     }
-
     .homeContent{
         height: 80vw;
     }
