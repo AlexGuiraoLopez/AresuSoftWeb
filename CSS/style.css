@@ -2,114 +2,139 @@ body{
     font-family: Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
     background-color: black;    /*Color de fondo*/
     background-image: url("../assets/img/matrixKatakana.png"); /*Imagen de fondo*/
+    background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
 }
 
-.menu{
-    display: flex;
-    flex-flow: column nowrap ;
+.container{
+box-sizing: border-box;
 }
-    .navMenu{ /*Menú de navegación*/
-        list-style: none;
-        padding: 0;
-        margin:0;
-        background-color: #000000;
-        position: sticky;
-        top:0;
+    .menu{
         display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
+        flex-flow: column nowrap ;
+        height: 6vw;
     }
-        .navMenu li a{
-            text-decoration: none;
-            color:rgb(255, 255, 255);
-            padding:20px;
-            font-size: 28px;
-            display: block; /*Crea bloques separados*/
+    /*Menú de navegación*/
+        .navMenu{ 
+            height: 100%;
+            list-style: none;
+            padding: 0;
+            margin:0;
+            background-color: #000000;
+            position: sticky;
+            top:0;
+            display: flex;
             flex-flow: row nowrap;
+            justify-content: center;
         }
-            .navMenu li{
-                display:inline-block;
-                text-align: center;
+            .navMenu li a{
+                text-decoration: none;
+                color:rgb(255, 255, 255);
+                padding:20px;
+                font-size: 2vw;
+                display: block; /*Crea bloques separados*/
+                flex-flow: row nowrap;
             }
             .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
+                border-radius: 40%;
                 background: rgb(102, 255, 0);
+                color: black;
             }
-    .transparentBox{
-        background: white;
-        height: 500px;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        justify-content: center;
 
-    }
-        .titleBox{
+    /*Portada*/
+        .transparentBox{
+            height: 45vw;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
-            margin:0;
-            height: 100%;
+            justify-content: center;
+
         }
-            .title{
-               align-self: center;
+            .titleBox{
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                margin:0;
+                height: 50%;
+            }
+                .titleBox h1{
+                    margin:0;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 4vw;
+                }
+                .titleBox h2{
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 2vw;
+                }
+
+    /*Caja de presentacion*/
+    .homeContent{
+        background: white;
+        height: 48vw;
+    }
+        .mainBox{
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            /*Avatar dentro de un círculo*/
+            .circle{
+                padding-top: 2vw;
+                width: 30%;
+            }
+            .circle > .image{ /*Selector de fills*/
+                border-radius: 100%;
+            }
+            .myDescription{
+                padding: 2vw;
+                width: 70%;
+            }
+            .myDescription p{
+                font-size: 2vw;
+            }
+        .breakLine{
+            width: 5%;
+            border-top: 8px dotted rgb(114, 114, 114);
+        }
+        .projectBox{
+            height: 50%;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            .projectImage{
+                margin:10px;
+                background: black;
+                width: 100%;
             }
 
-.myDescriptionL{
-    background:black;
-    width: 600px;
-    height: 450px;
-    margin-left: 25px;
-    float: left;
+/*Version movil*/
+@media (max-width: 600px){
+    .menu{
+        height: 10vw;
+    }
+        .navMenu li a{
+           
+            padding:10px;
+            font-size: 4vw;
+            display: block; /*Crea bloques separados*/
+            flex-flow: row nowrap;
+        }
+    .titleBox h1{
+        font-size: 8vw;
+    }
+    .titleBox h2{
+        font-size: 4vw;
+    }
+
+    .homeContent{
+        height: 80vw;
+    }
+    .myDescription p{
+        font-size: 3vw;
+    }
+    .breakLine{
+        width: 5%;
+        border-top: 1vw dotted rgb(114, 114, 114);
+    }
 }
 
-/*Título*/
-.myName{
-    color: white;
-    font-size: 38px;
-}
-
-/*Descripción*/
-.myDescriptionText{
-    text-align: justify;
-    line-height: 25px;
-    color:white;
-    font-size: 18px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-/*Avatar dentro de un círculo*/
-.circle{
-    width:200px;
-    height:200px;
-    border-radius: 100%;
-    background: violet;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    float: left;
-}
-.circle > .image{ /*Selector de fills*/
-    width:200px;
-    height:200px;
-    border-radius: 100%;
-}
-
-/*Images*/
-.leftImg{
-    width: 350px;
-    height: 250px;
-    margin-right: 25px;
-    float: left;
-}
-.rightImg{
-    width: 350px;
-    height: 250px;
-    margin-left: 25px;
-    float: right;
-}
-
-h2.appName{
-    font-size: 25px;
-    color: white;
-}
