@@ -71,7 +71,7 @@ box-sizing: border-box;
     /*Caja de presentacion*/
     .homeContent{
         background: white;
-        height: 48vw;
+        height: 70vw;
     }
         .mainBox{
             display: flex;
@@ -107,6 +107,27 @@ box-sizing: border-box;
                 width: 100%;
             }
 
+    .footer{
+        background: rgb(70, 107, 27);
+        height: 10vw;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .socialIcons{
+            
+        }
+            .youtubeIcon{
+                width: 9%;
+                border-radius: 10%;
+            }
+            .instagramIcon{
+                width: 8%;
+                border-radius: 50%;
+            }
+            .linkdinIcon{
+                width: 8%;
+                border-radius: 20%;
+            }
 /*Version movil*/
 @media (max-width: 600px){
     .menu{
