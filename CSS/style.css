@@ -91,19 +91,21 @@ box-sizing: border-box;
             }
             .myDescription p{
                 font-size: 2vw;
+                text-align: justify;
             }
         .breakLine{
             width: 5%;
             border-top: 8px dotted rgb(114, 114, 114);
         }
         .projectBox{
+            background: rgb(0, 0, 0);
             height: 50%;
             display: flex;
             flex-flow: row nowrap;
         }
             .projectImage{
                 margin:10px;
-                background: black;
+                background: rgb(235, 143, 143);
                 width: 100%;
             }
 
@@ -146,7 +148,7 @@ box-sizing: border-box;
         font-size: 4vw;
     }
     .homeContent{
-        height: 80vw;
+        height: 200vw;
     }
     .myDescription p{
         font-size: 3vw;
@@ -155,5 +157,17 @@ box-sizing: border-box;
         width: 5%;
         border-top: 1vw dotted rgb(114, 114, 114);
     }
+
+    .projectBox{
+        height: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+        .projectImage{
+            margin:15px;
+            width: 60%;
+            height: 25%;
+        }
 }
 

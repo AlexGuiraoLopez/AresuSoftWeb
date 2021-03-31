@@ -1,0 +1,98 @@
+body{
+    font-family: Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+    background-color: black;    /*Color de fondo*/
+    background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
+}
+
+.container{
+box-sizing: border-box;
+}
+    .menu{
+        display: flex;
+        flex-flow: column nowrap ;
+        height: 6vw;
+    }
+    /*Menú de navegación*/
+        .navMenu{ 
+            height: 100%;
+            list-style: none;
+            padding: 0;
+            margin:0;
+            background-color: #000000;
+            position: sticky;
+            top:0;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+            .navMenu li a{
+                text-decoration: none;
+                color:rgb(255, 255, 255);
+                padding:20px;
+                font-size: 2vw;
+                display: block; /*Crea bloques separados*/
+                flex-flow: row nowrap;
+            }
+            .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
+                border-radius: 40%;
+                background: rgb(102, 255, 0);
+                color: black;
+            }
+
+    /*Game Box*/
+    .gameContent{
+        background: white;
+    }
+    .gameContent section{
+        
+    }
+    .gameDescription{
+        background: green;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .gameDescription p{
+            width: 50%;
+        }
+        .gameDescription img{
+            width: 50%;
+        }
+        .gameImage{
+            background: black;
+        }
+
+    .footer{
+        background: rgb(70, 107, 27);
+        height: 10vw;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .socialIcons{
+            
+        }
+            .youtubeIcon{
+                width: 9%;
+                border-radius: 10%;
+            }
+            .instagramIcon{
+                width: 8%;
+                border-radius: 50%;
+            }
+            .linkdinIcon{
+                width: 8%;
+                border-radius: 20%;
+            }
+/*Version movil*/
+@media (max-width: 600px){
+    .menu{
+        height: 10vw;
+    }
+        .navMenu li a{
+            padding:10px;
+            font-size: 4vw;
+            display: block; /*Crea bloques separados*/
+            flex-flow: row nowrap;
+        }
+    
+}
+
