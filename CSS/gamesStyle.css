@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    height: 150vw;
+    height: 190vw;
 }
     .mainImage{
         background: white;
@@ -50,21 +50,35 @@ body{
             .descriptionImage{
                 margin: 0 20px;
                 width: 50%;
-                background-image: url("../assets/img/gameImages/forestBankShort.png");
+                
                 background-size: cover;
             }
+            /*IMAGES*/
+            #alarmLab{
+                background-image: url("../assets/img/gameImages/alarmLab.png");
+            }
+            #fishermanPuzzle{
+                background-image: url("../assets/img/gameImages/caveFire.png");
+            }
+            #caveFire{
+                background-image: url("../assets/img/gameImages/burnPuzzle.png");
+            }
+    .gameTrailer{
+        width: 100%;
+        height: 40vw;
+        display: flex;
+        flex-flow:column nowrap;
+        align-items: center;
+    }
+        .gameTrailer article{
+            background-color: thistle;
+            width: 70%;
+            height: 100%;
+        }
                 
 
 /*Version movil*/
 @media (max-width: 600px){
-    .menu{
-        height: 10vw;
-    }
-        .navMenu li a{
-            padding:10px;
-            font-size: 4vw;
-            display: block; /*Crea bloques separados*/
-            flex-flow: row nowrap;
-        }
+   
 }
 
