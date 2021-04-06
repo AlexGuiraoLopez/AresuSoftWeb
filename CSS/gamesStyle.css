@@ -1,87 +1,60 @@
 body{
-    font-family: Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+    font-family: Verdana, Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
     background-color: black;    /*Color de fondo*/
     background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
 }
 
 .container{
-box-sizing: border-box;
+    height: 150vw;
 }
-    .menu{
-        display: flex;
-        flex-flow: column nowrap ;
-        height: 6vw;
+    .mainImage{
+        background: white;
+        height: 40vw;
     }
-    /*Menú de navegación*/
-        .navMenu{ 
+    .gameTitle{
+        color: white;
+        font-size: 2vw;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    /*Game Description*/
+    .gameContent{
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        display: flex;
+        margin: 50px;
+        height: 25vw;
+    }
+        .gameDescription{
+            width: 90%;
             height: 100%;
-            list-style: none;
-            padding: 0;
-            margin:0;
-            background-color: #000000;
-            position: sticky;
-            top:0;
             display: flex;
             flex-flow: row nowrap;
-            justify-content: center;
         }
-            .navMenu li a{
-                text-decoration: none;
-                color:rgb(255, 255, 255);
-                padding:20px;
-                font-size: 2vw;
-                display: block; /*Crea bloques separados*/
-                flex-flow: row nowrap;
+            .descriptionText{
+                width: 50%;
             }
-            .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
-                border-radius: 40%;
-                background: rgb(102, 255, 0);
-                color: black;
-            }
+                .descriptionHead{
+                    color: rgb(255, 255, 255);
+                    font-size: 2.5vw;
+                    margin-top: 0;
+                }
+                .descriptionText p{
+                    color: white;
+                    font-size: 1.5vw;
+                }
 
-    /*Game Box*/
-    .gameContent{
-        background: white;
-    }
-    .gameContent section{
-        
-    }
-    .gameDescription{
-        background: green;
-        display: flex;
-        flex-flow: row nowrap;
-    }
-        .gameDescription p{
-            width: 50%;
-        }
-        .gameDescription img{
-            width: 50%;
-        }
-        .gameImage{
-            background: black;
-        }
+            .descriptionImage{
+                margin: 0 20px;
+                width: 50%;
+                background-image: url("../assets/img/gameImages/forestBankShort.png");
+                background-size: cover;
+            }
+                
 
-    .footer{
-        background: rgb(70, 107, 27);
-        height: 10vw;
-        display: flex;
-        flex-flow: row nowrap;
-    }
-        .socialIcons{
-            
-        }
-            .youtubeIcon{
-                width: 9%;
-                border-radius: 10%;
-            }
-            .instagramIcon{
-                width: 8%;
-                border-radius: 50%;
-            }
-            .linkdinIcon{
-                width: 8%;
-                border-radius: 20%;
-            }
 /*Version movil*/
 @media (max-width: 600px){
     .menu{
@@ -93,6 +66,5 @@ box-sizing: border-box;
             display: block; /*Crea bloques separados*/
             flex-flow: row nowrap;
         }
-    
 }
 
