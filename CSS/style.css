@@ -12,7 +12,7 @@ box-sizing: border-box;
         .transparentBox{
             background-image: url("../assets/img/gameImages/forestBank.png"); /*Imagen de fondo*/
             background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
-            background-size: 100vw;
+            background-size: cover;
             height: 45vw;
             display: flex;
             flex-flow: column nowrap;
