@@ -1,21 +1,25 @@
 
 /*Menú de navegación*/
 .menu{
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-flow: column nowrap ;
     height: 6vw;
+    background-color:rgba(194, 255, 237, 0.3);
 }
     .navMenu{ 
         height: 90%;
         list-style: none;
         padding: 0;
         margin:0;
-        background-color: #000000;
+        
         position: sticky;
         top:0;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
+        
     }
         .navMenu li a{
             text-decoration: none;
@@ -27,10 +31,19 @@
         }
         .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
             border-radius: 40%;
-            /*background: rgb(102, 255, 0);*/
             background: rgba(194, 255, 237, 0.7);
             color: black;
+            
         }
+
+.menuSticky{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap ;
+    height: 6vw;
+    background-color: black;
+}
 
 /*Footer*/
 .footer{
@@ -71,20 +84,20 @@
         }
 
         .footer{
-            height: 10vw;
+            height: 7vw;
         }
             .youtubeIcon{
-                width: 10%;
+                width: 7%;
                 border-radius: 10%;
                 padding-right: 1vw;
             }
             .instagramIcon{
-                width: 10%;
+                width: 7%;
                 border-radius: 50%;
                 padding-right: 1vw;
             }
             .linkdinIcon{
-                width: 10%;
+                width: 7%;
                 border-radius: 20%;
                 padding-right: 1vw;
             }

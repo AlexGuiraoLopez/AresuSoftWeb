@@ -9,6 +9,8 @@ body{
 }
     .mainImage{
         background: white;
+        background-image: url(../assets/img/gameImages/cave.png);
+        background-size: cover;
         height: 40vw;
     }
     .gameTitle{
@@ -79,6 +81,8 @@ body{
 
 /*Version movil*/
 @media (max-width: 600px){
-   
+   .container{
+       height: 230vw;
+   }
 }
 
