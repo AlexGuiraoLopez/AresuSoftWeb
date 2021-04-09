@@ -13,7 +13,7 @@ body{
     }
     .gameTitle{
         color: white;
-        font-size: 2vw;
+        font-size: 1.5vw;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -61,7 +61,7 @@ body{
                 background-image: url("../assets/img/gameImages/caveFire.png");
             }
             #caveFire{
-                background-image: url("../assets/img/gameImages/burnPuzzle.png");
+                background-image: url("../assets/img/gameImages/forestBank.png");
             }
     .gameTrailer{
         width: 100%;
