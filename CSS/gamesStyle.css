@@ -82,7 +82,49 @@ body{
 /*Version movil*/
 @media (max-width: 600px){
    .container{
-       height: 230vw;
+       height: 270vw;
    }
+   .gameTitle{
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+   .allContent{
+       display: flex;
+       flex-flow: column nowrap;
+       align-items: center;
+   }
+        .gameContent{
+            width: 90%;
+            margin:0;
+            height: 55vw;
+        }
+            .gameDescription{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+            }
+                .descriptionText{
+                    width: 50%;
+                }
+                    .descriptionHead{
+                        color: rgb(255, 255, 255);
+                        font-size: 4vw;
+                        margin-top: 0;
+                    }
+                    .descriptionText p{
+                        color: white;
+                        font-size: 2.5vw;
+                        text-align: justify;
+                    }
+                    .descriptionImage{
+                        margin: 0 20px;
+                        width: 50%;
+                        height: 50%;
+                        background-size: cover;
+                    }
 }
 
