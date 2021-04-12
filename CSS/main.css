@@ -9,11 +9,10 @@
     background-color:rgba(194, 255, 237, 0.3);
 }
     .navMenu{ 
-        height: 90%;
+        height: 100%;
         list-style: none;
         padding: 0;
         margin:0;
-        
         position: sticky;
         top:0;
         display: flex;
@@ -24,13 +23,14 @@
         .navMenu li a{
             text-decoration: none;
             color:rgb(255, 255, 255);
-            padding:20px;
+            padding:2vw;
             font-size: 2.5vw;
             display: block; /*Crea bloques separados*/
             flex-flow: row nowrap;
         }
         .navMenu li a:hover{ /*Para destacar los campos cuando el cursor pasa por encima*/
             border-radius: 40%;
+            height: 100%;
             background: rgba(194, 255, 237, 0.7);
             color: black;
             

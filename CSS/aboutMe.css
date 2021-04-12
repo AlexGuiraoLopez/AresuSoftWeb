@@ -1,0 +1,41 @@
+.container{
+    box-sizing: border-box;
+    }
+
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: black;
+}
+    .mainImage{
+        height: 30vw;
+        background-color: rgb(187, 170, 113);
+    }
+
+    .myDescriptionBox{
+        width: 97%;
+        height: 50vw;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .myDescriptionText{
+            width: 50%;
+        }
+            .myDescriptionText p{
+                color: white;
+                text-align:justify;
+                font-size: 3vw;
+                margin-right: 4vw;
+            }
+
+        .myImage{
+            width: 50%;
+            background-image: url("../assets/img/me/me1.JPG");
+            background-size: cover;
+            background-color: blueviolet;
+        }
+        .myImage:hover{
+            background-image: url("../assets/img/me/me2.JPG");
+            background-color: brown;
+        }
