@@ -85,7 +85,6 @@ box-sizing: border-box;
         }
             .projectImage{
                 margin:10px;
-                background: rgb(235, 143, 143);
                 width: 100%;
                 height: 70%;
             }
@@ -98,8 +97,6 @@ box-sizing: border-box;
                     background-image: url("../assets/img/gameImages/lifterAreaShort.png"); /*Imagen de fondo*/
                     background-size: 32vw;
                     height: 100%;
-               
-                    
                 }
                 .identityLoopImage2{
                     background-image: url("../assets/img/gameImages/forestBankShort.png"); /*Imagen de fondo*/

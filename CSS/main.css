@@ -1,3 +1,6 @@
+body{
+    font-family: Verdana, Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+}
 
 /*Menú de navegación*/
 .menu{
@@ -33,7 +36,6 @@
             height: 100%;
             background: rgba(194, 255, 237, 0.7);
             color: black;
-            
         }
 
 .menuSticky{

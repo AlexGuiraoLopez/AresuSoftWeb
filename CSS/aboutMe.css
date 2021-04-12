@@ -9,7 +9,7 @@
     background-color: black;
 }
     .mainImage{
-        height: 30vw;
+        height: 6vw;
         background-color: rgb(187, 170, 113);
     }
 
@@ -20,22 +20,23 @@
         flex-flow: row nowrap;
     }
         .myDescriptionText{
-            width: 50%;
+            width: 70%;
+            margin: 4vw;
         }
             .myDescriptionText p{
                 color: white;
                 text-align:justify;
-                font-size: 3vw;
-                margin-right: 4vw;
+                font-size: 2vw;
+                margin-top: 0;
             }
 
         .myImage{
-            width: 50%;
-            background-image: url("../assets/img/me/me1.JPG");
+            width: 34%;
+            height: 80%;
+            background-image: url("../assets/img/me/aresu1transparent.png");
             background-size: cover;
-            background-color: blueviolet;
+            margin-top: 1vw;
         }
         .myImage:hover{
-            background-image: url("../assets/img/me/me2.JPG");
-            background-color: brown;
+            background-image: url("../assets/img/me/aresu2transparent.png");
         }
