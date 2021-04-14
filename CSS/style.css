@@ -8,18 +8,18 @@ box-sizing: border-box;
 }
     /*Portada*/
         .transparentBox{
-            background-image: url("../assets/img/gameImages/forestBank.png"); /*Imagen de fondo*/
+            background-image: url("../assets/img/me/park/meInPark.JPG"); /*Imagen de fondo*/
             background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
             background-size: cover;
-            height: 45vw;
+            height: 50vw;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
             justify-content: center;
         }
             .titleBox{
-                background: rgba(194, 255, 237, 0.7);
-                border-radius: 100%;
+                /*background: rgba(194, 255, 237, 0.7);
+                border-radius: 100%; ==> Ovalo de fondo para el texto*/
                 display: flex;
                 flex-flow: column nowrap;
                 align-items: center;
@@ -29,12 +29,12 @@ box-sizing: border-box;
             }
                 .titleBox h1{
                     margin:0;
-                    color:rgb(0, 0, 0);
+                    color:rgb(255, 255, 255);
                     font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
                     font-size: 4vw;
                 }
                 .titleBox h2{
-                    color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                     font-size: 2vw;
                 }
