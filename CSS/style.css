@@ -10,7 +10,7 @@ box-sizing: border-box;
         .transparentBox{
             background-image: url("../assets/img/me/park/meInPark.JPG"); /*Imagen de fondo*/
             background-attachment: fixed; /*Imagen fija (no se desplaza con scroll)*/
-            background-size: contain;
+            background-size: 100%;
             width: 100%;
             height: 50vw;
             display: flex;
