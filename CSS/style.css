@@ -77,9 +77,9 @@ box-sizing: border-box;
             border-top: 8px dotted rgb(114, 114, 114);
         }
         .projectBox{
-            
-            background:linear-gradient(360deg,rgb(196, 190, 190)93%,white) ;
             height:50%;
+            
+            background:linear-gradient(white -400%,rgb(151, 138, 138)92%,white);
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
@@ -105,55 +105,7 @@ box-sizing: border-box;
                     height: 100%;
                 }
 
-/*Version movil*/
-@media (max-width: 600px){
-    .titleBox{
-        height: 20vw;
-        width: 55vw;
-    }
-        .titleBox h1{
-            padding-top: 10px;
-            font-size: 6vw;
-        }
-        .titleBox h2{
-            font-size: 3vw;
-        }
-    .homeContent{
-        height: 220vw;
-    }
-    .myDescription p{
-        font-size: 3vw;
-    }
-    .breakLine{
-        width: 5%;
-        border-top: 1vw dotted rgb(114, 114, 114);
-    }
-
-    .projectBox{
-        background:linear-gradient(360deg,rgb(0, 0, 0)98%,white) ;
-        height: 77%;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-    }
-        .projectImage{
-            margin:15px;
-            width: 60%;
-            height: 25%;
-        }
-            .identityLoopImage{
-                background-size: 140%;
-            }
-            .cepFlyImage{
-                background-size: 60vw;
-            }
-            .identityLoopImage2{
-                background-size: 65vw;
-            }
-}
-
-
-/*Incrustación de los estilos AboutMe*/
+                /*Incrustación de los estilos AboutMe*/
 .content{
     display: flex;
     flex-flow: column nowrap;
@@ -191,4 +143,64 @@ box-sizing: border-box;
         .myImage:hover{
             background-image: url("../assets/img/me/aresu2transparent.png");
         }
+
+/*Version movil*/
+@media (max-width: 600px){
+    .titleBox{
+        height: 20vw;
+        width: 55vw;
+    }
+        .titleBox h1{
+            padding-top: 10px;
+            font-size: 6vw;
+        }
+        .titleBox h2{
+            font-size: 3vw;
+        }
+    .homeContent{
+        height: 220vw;
+    }
+    .myDescription p{
+        font-size: 3vw;
+    }
+    .breakLine{
+        width: 5%;
+        border-top: 1vw dotted rgb(114, 114, 114);
+    }
+
+    .projectBox{
+        height: 77%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+        .projectImage{
+            margin:15px;
+            width: 60%;
+            height: 25%;
+        }
+            .identityLoopImage{
+                background-size: 140%;
+            }
+            .cepFlyImage{
+                background-size: 60vw;
+            }
+            .identityLoopImage2{
+                background-size: 65vw;
+            }
+
+    /*Incrustación AboutMe*/
+    .myDescriptionBox{
+        width: 97%;
+        height: 50vw;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .myDescriptionText p{
+            font-size: 2.2vw;
+        }
+}
+
+
+
 
