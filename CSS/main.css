@@ -1,11 +1,18 @@
 body{
-    font-family: Verdana, Georgia, Helvetica, sans-serif;  /*Tipo de letra*/
+    font-family: Verdana,Arial, Helvetica, sans-serif;  /*Tipo de letra*/
+}
+
+/*BOTONES*/
+/*Boton de más información*/
+.moreInfo{
+    text-decoration:none;
 }
 
 /*Menú de navegación*/
 .menu{
     position: fixed;
     width: 100%;
+    z-index: 5;
     display: flex;
     flex-flow: column nowrap ;
     height: 4vw;
@@ -21,6 +28,7 @@ body{
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
+        font-family: sans-serif;
         
     }
         .navMenu li a{

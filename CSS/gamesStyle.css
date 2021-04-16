@@ -9,7 +9,7 @@ body{
 }
     .mainImage{
         background: white;
-        background-image: url(../assets/img/gameImages/cave.png);
+        background-image: url(../assets/img/portadas/img_identityLoopPortada.png);
         background-size: cover;
         height: 40vw;
     }
