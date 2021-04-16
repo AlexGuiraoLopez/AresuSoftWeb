@@ -77,23 +77,61 @@ box-sizing: border-box;
             border-top: 8px dotted rgb(114, 114, 114);
         }
         .projectBox{
-            height:50%;
-            
+            height:40vw;
             background:linear-gradient(white -400%,rgb(151, 138, 138)92%,white);
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
+            justify-content: center;
         }
             .projectImage{
-                margin:10px;
-                width: 100%;
-                height: 70%;
+                margin:30px;
+                width: 37%;
+                height: 69%;
             }
+            
                 .identityLoopImage{
-                    background-image: url("../assets/img/gameImages/cave.png"); /*Imagen de fondo*/
+                    position: relative;
                     background-size: 50vw;
                     height: 100%;
+                  
                 }
+                .identityLoopImage img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+                    .projectTitle{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left:0;
+                        background:rgba(56, 54, 54, 0.8);
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        opacity: 0;
+                        transition: opacity 0.25s;
+                    }
+                    .projectTitle:hover{
+                        opacity: 1;
+                    }
+
+                    .projectTitle > *{
+                        transform: translateY(20px);
+                        transition: transform 0.25s;
+                    }
+                    .projectTitle:hover > *{
+                        transform: translateY(-20px);
+                    }
+                    .projectTitle h2{
+                        font-size: 4vw;
+                        color: white;
+                        margin: 0;
+                        padding: 0;
+                    }
+
                 .cepFlyImage{
                     background-image: url("../assets/img/gameImages/lifterAreaShort.png"); /*Imagen de fondo*/
                     background-size: 32vw;
