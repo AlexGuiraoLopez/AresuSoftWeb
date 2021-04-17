@@ -73,7 +73,7 @@ box-sizing: border-box;
         }
         .projectBox{
             height:40vw;
-            background:linear-gradient(white -400%,rgb(151, 138, 138)92%,white);
+            background:linear-gradient(to top, rgb(151, 138, 138)92%,white);
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
@@ -149,7 +149,8 @@ box-sizing: border-box;
                     height: 100%;
                 }
 
-                /*Incrustación de los estilos AboutMe*/
+/*Incrustación de los estilos AboutMe*/
+/*
 .content{
     display: flex;
     flex-flow: column nowrap;
@@ -187,6 +188,7 @@ box-sizing: border-box;
         .myImage:hover{
             background-image: url("../assets/img/me/aresu2transparent.png");
         }
+        */
 
 /*Version movil*/
 @media (max-width: 600px){
@@ -211,6 +213,7 @@ box-sizing: border-box;
         width: 5%;
         border-top: 1vw dotted rgb(114, 114, 114);
     }
+
 
     .projectBox{
         height: 68%;
@@ -250,6 +253,7 @@ box-sizing: border-box;
             
 
     /*Incrustación AboutMe*/
+    /*
     .myDescriptionBox{
         width: 97%;
         height: 50vw;
@@ -259,6 +263,7 @@ box-sizing: border-box;
         .myDescriptionText p{
             font-size: 2.2vw;
         }
+        */
 }
 
 
