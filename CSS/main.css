@@ -2,11 +2,6 @@ body{
     font-family: Verdana,Arial, Helvetica, sans-serif;  /*Tipo de letra*/
 }
 
-/*BOTONES*/
-/*Boton de más información*/
-.moreInfo{
-    text-decoration:none;
-}
 
 /*Menú de navegación*/
 .menu{
