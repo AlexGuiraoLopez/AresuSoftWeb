@@ -58,7 +58,8 @@ body{
     flex-flow: row nowrap;
 }
     .socialIcons{
-
+        margin-top: .2vw;
+        margin-left: 1vw;
     }
         .youtubeIcon{
             width: 3.5%;

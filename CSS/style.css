@@ -150,7 +150,9 @@ box-sizing: border-box;
                             margin-top: 1.5vw;
                             margin-right: 1vw;
                             align-self: flex-end;
+                            pointer-events: none;
                         }
+
                     .projectTitle:hover{
                         opacity: 1;
                     }
@@ -161,6 +163,7 @@ box-sizing: border-box;
                     }
                     .projectTitle:hover > *{
                         transform: translateY(-2vw);
+                        pointer-events: auto; /*Activa el enlace de .moreInfo*/
                     }
 
                
