@@ -42,6 +42,9 @@
         }
 
 @media (max-width:600px){
+    .mainImage{
+        height: 8vw;
+    }
     .myDescriptionBox{
         height: 40vw;
     }

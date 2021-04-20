@@ -57,22 +57,23 @@ body{
     flex-flow: row nowrap;
 }
     .socialIcons{
-        width: 15%;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
         margin-top: .2vw;
         margin-left: 1vw;
     }
         .youtubeIcon{
-            width: 4vw;
-            border-radius: 10%;
-            padding-right: 10px;
+            width: 3vw;
+            margin-right: 1.5vw ;
         }
         .instagramIcon{
-            width: 3.4vw;
-            padding-right: 10px;
+            width: 3vw;
+            margin-right: 1.5vw ;
         }
         .linkdinIcon{
-            width: 3.3vw;
-            padding-right: 10px;
+            width: 2.5vw;
+            margin-right: 1.5vw ;
         }
 
 /*Version movil*/
@@ -81,7 +82,7 @@ body{
         height: 8vw;
     }
         .navMenu li a{
-            padding:10px;
+            padding:1.4vw;
             font-size: 4vw;
             display: block; /*Crea bloques separados*/
             flex-flow: row nowrap;
@@ -92,15 +93,15 @@ body{
         }
             .youtubeIcon{
                 width: 7vw;
-                padding-right: 1vw;
+                margin-right: 2vw;
             }
             .instagramIcon{
                 width: 6vw;
-                padding-right: 1vw;
+                margin-right: 2vw;
             }
             .linkdinIcon{
                 width: 5.4vw;
                 border-radius: 20%;
-                padding-right: 1vw;
+                margin-right: 2vw;
             }
 }
