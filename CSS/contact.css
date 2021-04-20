@@ -1,11 +1,29 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
+.mainContent{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 39vw;
+}
 h1,h2{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
+.mailIcon{
+    width: 5vw;
+}
 .separator{
     height: 5vw;
+}
+
+.contactIcons{
+
+    filter: invert();
+}
+.linkedinIcon{
+    width: 4vw;
 }

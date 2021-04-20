@@ -6,16 +6,16 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 217, 217);
 }
     .mainImage{
-        height: 6vw;
+        height: 4vw;
         background-color: rgb(255, 255, 255);
     }
 
     .myDescriptionBox{
         width: 97%;
-        height: 50vw;
+        height: 40vw;
         display: flex;
         flex-flow: row nowrap;
     }

@@ -24,7 +24,6 @@ body{
         flex-flow: row nowrap;
         justify-content: center;
         font-family: sans-serif;
-        
     }
         .navMenu li a{
             text-decoration: none;
@@ -58,22 +57,21 @@ body{
     flex-flow: row nowrap;
 }
     .socialIcons{
+        width: 15%;
         margin-top: .2vw;
         margin-left: 1vw;
     }
         .youtubeIcon{
-            width: 3.5%;
+            width: 4vw;
             border-radius: 10%;
             padding-right: 10px;
         }
         .instagramIcon{
-            width: 3.2%;
-           /* border-radius: 50%;*/
+            width: 3.4vw;
             padding-right: 10px;
         }
         .linkdinIcon{
-            width: 3%;
-           /* border-radius: 20%;*/
+            width: 3.3vw;
             padding-right: 10px;
         }
 
@@ -93,17 +91,15 @@ body{
             height: 7vw;
         }
             .youtubeIcon{
-                width: 7%;
-                border-radius: 10%;
+                width: 7vw;
                 padding-right: 1vw;
             }
             .instagramIcon{
-                width: 6%;
-                border-radius: 50%;
+                width: 6vw;
                 padding-right: 1vw;
             }
             .linkdinIcon{
-                width: 6%;
+                width: 5.4vw;
                 border-radius: 20%;
                 padding-right: 1vw;
             }
