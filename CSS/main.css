@@ -58,7 +58,7 @@ body{
 }
     .socialIcons{
         display: flex;
-        flex-flow: row;
+        flex-flow: row nowrap;
         align-items: center;
         margin-top: .2vw;
         margin-left: 1vw;
@@ -101,7 +101,6 @@ body{
             }
             .linkdinIcon{
                 width: 5.4vw;
-                border-radius: 20%;
                 margin-right: 2vw;
             }
 }
