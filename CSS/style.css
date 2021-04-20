@@ -163,7 +163,7 @@ box-sizing: border-box;
                     }
                     .projectTitle:hover > *{
                         transform: translateY(-2vw);
-                        pointer-events: auto; /*Activa el enlace de .moreInfo*/
+                        pointer-events: auto;
                     }
 
                

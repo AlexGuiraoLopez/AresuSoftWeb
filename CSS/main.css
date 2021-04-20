@@ -80,7 +80,7 @@ body{
 /*Version movil*/
 @media (max-width: 600px){
     .menu{
-        height: 10vw;
+        height: 8vw;
     }
         .navMenu li a{
             padding:10px;

@@ -32,7 +32,7 @@
 
         .myImage{
             width: 34%;
-            height: 80%;
+            height: 39vw;
             background-image: url("../assets/img/me/aresu1transparent.png");
             background-size: cover;
             margin-top: 1vw;
@@ -40,3 +40,17 @@
         .myImage:hover{
             background-image: url("../assets/img/me/aresu2transparent.png");
         }
+
+@media (max-width:600px){
+    .myDescriptionBox{
+        height: 40vw;
+    }
+
+    .myDescriptionText p{
+        font-size: 2vw;
+    }
+
+
+
+
+}
