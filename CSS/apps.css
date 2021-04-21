@@ -1,12 +1,38 @@
 body{
-    background-color: black;
+    background-color: rgb(36, 204, 78);
 }
 
 h1{
-    color: white;
+    font-size: 2.2vw;
+    color: rgb(0, 0, 0);
 }
-
-
 .separator{
     height: 5vw;
 }
+.appBox{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 40vw;
+}
+    .appDescription{
+        font-size: 1.2vw;
+        
+        text-align: justify;
+        width: 50vw;
+        margin:1vw 2vw;
+    }
+    .appImage{
+        width: 20vw;
+    }
+.videoBox{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+}
+    .iframe{
+        width: 55vw;
+        height: 35vw;
+    }

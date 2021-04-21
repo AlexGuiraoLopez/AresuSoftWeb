@@ -127,6 +127,10 @@ box-sizing: border-box;
                             justify-content: center;
                             margin: 1.5vw 0;
                         }
+                        .tecnoLogoBox2{
+                            margin-top: 2vw;
+                            height: 4vw;
+                        }
                             .tecnoLogo{
                                 margin-right: .5vw;
                             }
