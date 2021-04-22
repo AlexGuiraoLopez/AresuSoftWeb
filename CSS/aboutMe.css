@@ -6,7 +6,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(245, 226, 219);
 }
     .mainImage{
         height: 4vw;
