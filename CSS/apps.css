@@ -3,8 +3,9 @@ body{
 }
 
 h1{
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     color: rgb(0, 0, 0);
+    margin:0 2vw;
 }
 .separator{
     height: 5vw;
@@ -15,9 +16,12 @@ h1{
     justify-content: center;
     height: 40vw;
 }
+.textBox{
+    align-self: center;
+    
+}
     .appDescription{
         font-size: 1.2vw;
-        
         text-align: justify;
         width: 50vw;
         margin:1vw 2vw;
@@ -36,3 +40,18 @@ h1{
         width: 55vw;
         height: 35vw;
     }
+
+@media (max-width: 600px)
+{
+    .separator{
+        height: 10vw;
+    }
+    .appBox{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+        .appDescription{
+            font-size: 2vw;
+        }
+}
