@@ -9,10 +9,15 @@ body{
     width: 100%;
     z-index: 5;
     display: flex;
-    flex-flow: column nowrap ;
+    flex-flow: row nowrap ;
+    justify-content: center;
     height: 4vw;
     background-color:rgba(0, 0, 0, 0.3);
 }
+    .aresuLogo{
+        width: 6vw;
+        justify-self: flex-start;
+    }
     .navMenu{ 
         height: 100%;
         list-style: none;
@@ -20,10 +25,11 @@ body{
         margin:0;
         position: sticky;
         top:0;
+        align-self: center;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
         font-family: sans-serif;
+        
     }
         .navMenu li a{
             text-decoration: none;
@@ -44,7 +50,7 @@ body{
     position: fixed;
     width: 100%;
     display: flex;
-    flex-flow: column nowrap ;
+    flex-flow: row nowrap ;
     height: 4vw;
     background-color: black;
 }
@@ -80,6 +86,9 @@ body{
 @media (max-width: 600px){
     .menu{
         height: 8vw;
+    }
+    .aresuLogo{
+        width: 10vw;
     }
         .navMenu li a{
             padding:1.4vw;

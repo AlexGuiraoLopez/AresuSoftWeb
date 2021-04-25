@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    height: 190vw;
+   
 }
     .mainImage{
         background: white;
@@ -65,20 +65,18 @@ body{
             #caveFire{
                 background-image: url("../assets/img/gameImages/forestBank.png");
             }
-    .gameTrailer{
-        width: 100%;
-        height: 40vw;
-        display: flex;
-        flex-flow:column nowrap;
-        align-items: center;
-    }
-        .gameTrailer article{
-            background-color: thistle;
-            width: 70%;
-            height: 100%;
-        }
-                
-
+            .videoBox{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                height: 40vw;
+            }
+            .iframe{
+                width: 55vw;
+                height: 35vw;
+            }
+  
 /*Version movil*/
 @media (max-width: 600px){
    .container{
