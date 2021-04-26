@@ -18,19 +18,22 @@
                         <img src="assets/icon/mainLogoTransparent.png" alt="aresuDevLogo">
                     </div>
                     <ul class="navMenu"> <!--Barra superior de navegación-->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="HTML/games.html">Games</a></li>
-                        <li><a href="HTML/apps.html">Apps</a></li>
-                        <li><a href="HTML/aboutMe.html">About Me</a></li>
-                        <li><a href="HTML/contact.html">Contact</a></li>
+                        <li><a href="index.html" class="barText" key="home">Home</a></li>
+                        <li><a href="HTML/games.html" class="barText" key="games">Games</a></li>
+                        <li><a href="HTML/apps.html" class="barText" key="apps">Apps</a></li>
+                        <li><a href="HTML/aboutMe.html" class="barText" key="aboutMe">About Me</a></li>
+                        <li><a href="HTML/contact.html" class="barText" key="contact">Contact</a></li>
                     </ul>
-                    <div class="relleno"></div>
+                    <div class="languages">
+                        <button class="translate" id="es">Español</button>
+                        <button class="translate" id="en">Inglés</button>
+                    </div>
                 </div>
             </header>
             <article class="transparentBox">
                 <div class="titleBox">
                     <h1 class="title">Aresu</h1>
-                    <h2 class="title">- Software Developer -</h2>
+                    <h2 class="title" class="lang" key="job">- Software Developer -</h2>
                 </div>
             </article>
             <article class="homeContent">
@@ -117,6 +120,10 @@
                 </footer>
             </article>
         </section>
+
+        <!--Scripting-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="JS/main.js" type="text/javascript"></script>
+        <script src="JS/lang.js" type="text/javascript"></script>
     </body>
 </html>

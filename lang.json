@@ -1,0 +1,18 @@
+{
+    "es":{
+        "home":"Inicio",
+        "games":"Videojuegos",
+        "apps":"Aplicaciones",
+        "aboutMe":"Sobre mi",
+        "contact":"Contacto",
+        "job":"- Desarrollador de software -"
+    }, 
+    "en":{
+        "home":"Home",
+        "games":"Games",
+        "apps":"Apps",
+        "aboutMe":"About Me",
+        "contact":"Contact",
+        "job":"- Software Developer -"
+    }
+}

@@ -32,8 +32,8 @@ body{
         display: flex;
         flex-flow: row nowrap;
         font-family: sans-serif;
+        flex: 6 1 auto;
         justify-content: center;
-        
     }
         .navMenu li a{
             text-decoration: none;
@@ -49,9 +49,12 @@ body{
             background: rgba(194, 255, 237, 0.7);
             color: black;
         }
-    .relleno{
+    .languages{
         flex: 1 1 auto;
     }
+        .lang{
+            background-color: chocolate;
+        }
 
 .menuSticky{
     position: fixed;
