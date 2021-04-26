@@ -15,20 +15,24 @@ body{
     background-color:rgba(0, 0, 0, 0.3);
 }
     .aresuLogo{
-        width: 6vw;
-        justify-self: flex-start;
+        flex: 1 1 auto;
     }
+        .aresuLogo img{
+            width: 5.5vw;
+            margin-left: .1vw ;
+        }
     .navMenu{ 
         height: 100%;
+        flex: 1 1 auto;
         list-style: none;
         padding: 0;
         margin:0;
         position: sticky;
         top:0;
-        align-self: center;
         display: flex;
         flex-flow: row nowrap;
         font-family: sans-serif;
+        justify-content: center;
         
     }
         .navMenu li a{
@@ -45,6 +49,9 @@ body{
             background: rgba(194, 255, 237, 0.7);
             color: black;
         }
+    .relleno{
+        flex: 1 1 auto;
+    }
 
 .menuSticky{
     position: fixed;
@@ -88,15 +95,17 @@ body{
         height: 8vw;
     }
     .aresuLogo{
-        width: 10vw;
     }
+        .aresuLogo img{
+            width: 10.5vw;
+            margin-left: .1vw ;
+        }
         .navMenu li a{
             padding:1.4vw;
             font-size: 4vw;
             display: block; /*Crea bloques separados*/
             flex-flow: row nowrap;
         }
-
         .footer{
             height: 7vw;
         }
