@@ -2,7 +2,6 @@ body{
     font-family: Verdana,Arial, Helvetica, sans-serif;  /*Tipo de letra*/
 }
 
-
 /*Menú de navegación*/
 .menu{
     position: fixed;
@@ -34,6 +33,7 @@ body{
         font-family: sans-serif;
         flex: 6 1 auto;
         justify-content: center;
+        align-items: center;
     }
         .navMenu li a{
             text-decoration: none;
@@ -103,17 +103,20 @@ body{
     .menu{
         height: 8vw;
     }
-    .aresuLogo{
-    }
         .aresuLogo img{
             width: 10.5vw;
             margin-left: .1vw ;
         }
         .navMenu li a{
             padding:1.4vw;
-            font-size: 4vw;
+            font-size: 2.5vw;
             display: block; /*Crea bloques separados*/
             flex-flow: row nowrap;
+        }
+        .translate{
+            width: 4vw;
+            height: 4vw;
+            margin: 0 .4vw;
         }
         .footer{
             height: 7vw;

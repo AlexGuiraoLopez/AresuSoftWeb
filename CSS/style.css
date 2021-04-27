@@ -207,6 +207,10 @@ box-sizing: border-box;
     .homeContent{
         height: 220vw;
     }
+    .mainBox{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
     .myDescription p{
         font-size: 3vw;
     }
@@ -214,8 +218,6 @@ box-sizing: border-box;
         width: 5%;
         border-top: 1vw dotted rgb(114, 114, 114);
     }
-
-
     .projectBox{
         height: 65%;
         background:linear-gradient(to top, rgb(129, 124, 124)98%,white);
@@ -230,7 +232,6 @@ box-sizing: border-box;
             height: 60vw;
             margin-top: 5vw;
         }
-
         .projectTitle h2{
             font-size: 6vw;
             color: white;
@@ -243,7 +244,6 @@ box-sizing: border-box;
             margin:2vw 3vw;
             text-align: center;
         }
-        
         .projectTitle h3{
             font-size: 4vw;
             width: 30vw;
@@ -255,7 +255,6 @@ box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-
         .tecnoLogoBox{
             width: 8vw;
         }
