@@ -9,7 +9,49 @@
         "myDescription1":"Bienvenid@ a mi espacio personal donde encontrarás mis proyectos y podrás conocerme.",
         "myDescription2":"Siéntete libre de explorar la web según el tipo de proyecto que buscas.",
         "myDescription3":"Si tienes cualquier propuesta o crítica visita el apartado de contacto.",
-        "myDescription4":"(*Todos son proyectos en desarrollo, incluida esta web)"
+        "myDescription4":"(*Todos son proyectos en desarrollo, incluida esta web).",
+        "identityLoopDescription1":"Videojuego de aventuras, puzzles y exploración.",
+        "identityLoopDescription2":"Desarrollo actual: Demo jugable 30' (inicio del juego).",  
+        "identityLoopDescription3":"Desarrollado en C# con Unity. Arte dibujado con Aseprite y banda sonora producida con ProTools.",
+        "moreInfo":"Más información",
+
+
+        "identityLoopTitle":"Haz memoria...",
+        "identityLoopTitle1":"Todo es tan extraño...",
+        "identityLoopTitle1.1":"Al despertar te encuentras en el edificio de una extraña empresa dedicada a realizar experimentos poco éticos.",
+        "identityLoopTitle1.2":"Por más que lo intentes no consigues recordar lo que te trajo a ese lugar. Tan solo te queda seguir avanzando.",
+        "identityLoopTitle1.3":"Escapa para descubrir tu verdadera identidad.",
+      
+        "identityLoopTitle2":"¡Usa tu ingenio!",
+        "identityLoopTitle2.1":"Recorre un mundo lleno de acertijos y desafíos que deberás resolver para seguir avanzando.",
+        "identityLoopTitle2.2":"Utiliza herramientas para abrir tu camino o derrotar enemigos.",
+        "identityLoopTitle2.3":"Conoce a nueva gente y apóyate en sus consejos. Te darás cuenta de que todo es más sencillo de lo que parece.",
+
+        "identityLoopTitle3":"Arte nostálgico",
+        "identityLoopTitle3.1":"El mundo de Identity Loop está creado utilizando una técnica de dibujo pixel art de 16 bits.",
+        "identityLoopTitle3.2":"Basado en videojuegos de los años 80 como Mother, The Legend Of Zelda o Final Fantasy.",
+        "identityLoopTitle3.3":"El sonido ASMR junto a su banda sonora original rompen la pared entre el jugador y la pantalla.",
+
+
+        "cepFlyDescription1":"Aplicación para dispositivos móviles Android.",
+        "cepFlyDescription2":"Desarrollo: Prototipo con funciones principales.",
+        "cepFlyDescription3":"Desarrollado en Java y Kotlin con Android Studio.",
+        
+        "cepFlyP1":"Cep Fly es un prototipo de mi primera aplicación para dispositivos móviles Android escrita con Java y Kotlin.",
+        "cepFlyP2":"La aplicación permite realizar distintas funciones según el tipo de usuario que la utiliza:",
+        "cepFlyP3":"Administrador: Dar de alta a trabajadores, asignarlos al vuelo y visualizar su información. Necesita ser aprobado mediante login.",
+        "cepFlyP4":"Cliente: Puede comprar billetes y visualizar la información del vuelo.",
+        "cepFlyP5":"Es extensión de un proyecto anterior realizado en java sin interfaz gráfica. He aprendido conceptos básicos sobre la creación de layouts y activities.",
+
+        "aboutMeP1":"Soy Alex Guirao López y actualmente resido en Barcelona.",
+        "aboutMeP2":"Nací en 1994 y desde muy pequeño mi curiosidad por la tecnologia ha potenciado mi interés por las aplicaciones en el ámbito de la comunicación y el entretenimiento.",
+        "aboutMeP3":"Decidí estudias audiovisuales para incrementar mis habilidades y aplicarlas en proyectos profesionles",
+        "aboutMeP4":"Actualmente estoy estudiando desarrollo de software para aplicaciones y web, en busca de nuevas oportunidades",
+        "aboutMeP5":"¡Si buscas compañeros para tu proyecto no dudes en contactar conmigo!",
+
+        "clickEmail":"Haz click para email...",
+        "clickLinkedin":"...o contacta a través de Linkedin."
+      
     }, 
     "en":{
         "home":"Home",
@@ -21,6 +63,47 @@
         "myDescription1":"Welcome to my space where I share all my projects to everyone.",
         "myDescription2":"Feel free to check anything depending on the type of art you are looking for.",
         "myDescription3":"Please contact me if you have an offer.",
-        "myDescription4":"(*All projects are still in development including this web site.)"
+        "myDescription4":"(*All projects are still in development including this web site).",
+        "identityLoopDescription1":"Puzzle/Adventure videogame.",
+        "identityLoopDescription2":"Current development: 30' demo.",  
+        "identityLoopDescription3":"Made in C# with Unity. Art designed with Aseprite and original soundtrack with ProTools.",
+        "moreInfo":"More information",
+        "cepFlyDescription1":"App for Android devices.",
+        "cepFlyDescription2":"Current development: Prototype with main functions.",
+        "cepFlyDescription3":"Made with Android Studio (Java and Kotlin).",
+
+
+        "identityLoopTitle":"Remember...",
+        "identityLoopTitle1":"Is so strange...",
+        "identityLoopTitle1.1":"You've just awaken and realised that you are inside a strange scientific company building.",
+        "identityLoopTitle1.2":"Although you try to remember what happened, don't know how you reached that place. You can only move on.",
+        "identityLoopTitle1.3":"Escape to discover your own identity.",
+      
+        "identityLoopTitle2":"¡Wake up your wits!",
+        "identityLoopTitle2.1":"Discover a huge world full of puzzles to solve in order to continue your adventure.",
+        "identityLoopTitle2.2":"Use items and weapons to open the path or defeat enemies.",
+        "identityLoopTitle2.3":"Meet new people and listen their advices. In the end you'll see everything is easier than it seems.",
+
+        "identityLoopTitle3":"Nostalgic art",
+        "identityLoopTitle3.1":"The world of Identity Loop is made using a 16 bit pixel art technique.",
+        "identityLoopTitle3.2":"Based on classic videogames like Mother, The Legend of Zelda or Final Fantasy.",
+        "identityLoopTitle3.3":"The ASMR sound joins to its original soundtrack to break the wall between the player and the screen.",
+
+
+        "cepFlyP1":"Cep Fly is a prototype of my first app for Android devices made with Java and Kotlin.",
+        "cepFlyP2":"The program allows to execute many functions depending on wich kind of user is using it:",
+        "cepFlyP3":"Admin: Discharge workers and set up the current flight. Admin needs to be logged in the system.",
+        "cepFlyP4":"Client: Can buy tickets and see the current flight info.",
+        "cepFlyP5":"This is an extension of an old project made in Java without user interface.",
+
+
+        "aboutMeP1":"I'm Alex Guirao López and actually I live in Barcelona, Spain.",
+        "aboutMeP2":"I was born in 1994 and since I was a child my curiosity for tecnology has increased my interes in comunication and entertainment software development.",
+        "aboutMeP3":"I decided to study audiovisuals in order to increase my skills and start making professional projects.",
+        "aboutMeP4":"Now I'm studing app and web software development looking for new oportunities.",
+        "aboutMeP5":"¡If you are looking for colleagues for your project do not hesitate to contact me!",
+
+        "clickEmail":"Click to send an email...",
+        "clickLinkedin":"...or contact by Linkedin."
     }
 }

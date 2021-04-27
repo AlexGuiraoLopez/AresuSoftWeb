@@ -16,26 +16,31 @@
                 <a href="../index.html"><img class="aresuLogo" src="../assets/icon/mainLogoTransparent.png" alt="aresuDevLogo"></a>
             </div>
             <ul class="navMenu"> <!--Barra superior de navegación-->
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../HTML/games.html">Games</a></li>
-                <li><a href="../HTML/apps.html">Apps</a></li>
-                <li><a href="../HTML/aboutMe.html">About me</a></li>
-                <li><a href="../HTML/contact.html">Contact</a></li>
+                <li><a href="../index.html" class="barText lang" key="home">Home</a></li>
+                <li><a href="../HTML/games.html" class="barText lang" key="games">Games</a></li>
+                <li><a href="../HTML/apps.html" class="barText lang" key="apps">Apps</a></li>
+                <li><a href="../HTML/aboutMe.html" class="barText lang" key="aboutMe">About Me</a></li>
+                <li><a href="../HTML/contact.html" class="barText lang" key="contact">Contact</a></li>
             </ul>
-            <div class="relleno"></div>
+            <div class="languages">
+                <!--
+                <button class="translate" id="es"><img src="assets/icon/spanishIcon.png" alt="spanish" class="countryIcon"></button>
+                <button class="translate" id="en"><img src="assets/icon/englishIcon.png" alt="english" class="countryIcon"></button>-->
+                <img src="../assets/icon/englishIcon.png" alt="english" class="translate" id="en">
+                <img src="../assets/icon/spanishIcon.png" alt="spanish" class="translate" id="es">
+            </div>
         </header>
         <section class="container">
             <div class="separator"></div>
-            
             <article class="appBox">
                 <img class="appImage" src="../assets/img/appImages/CepFlyStartScreen.png" alt="cepFlyImage">
                 <div class="textBox">
                     <h1><u>Cep Fly</u></h1>
-                    <p class="appDescription">Cep Fly es un prototipo de mi primera aplicación para dispositivos móviles Android escrita con Java y Kotlin.</p>
-                    <p class="appDescription">La aplicación permite realizar distintas funciones según el tipo de usuario que la utiliza:</p>
-                    <p class="appDescription"><b>Administrador:</b> Dar de alta a trabajadores, asignarlos al vuelo y visualizar su información. Necesita ser aprobado mediante login.</p>
-                    <p class="appDescription"><b>Cliente:</b> Puede comprar billetes y visualizar la información del vuelo. </p>
-                    <p class="appDescription">Es extensión de un proyecto anterior realizado en java sin interfaz gráfica. He aprendido conceptos básicos sobre la creación de layouts y activities.</p>
+                    <p class="appDescription lang" key="cepFlyP1">Cep Fly es un prototipo de mi primera aplicación para dispositivos móviles Android escrita con Java y Kotlin.</p>
+                    <p class="appDescription lang" key="cepFlyP2">La aplicación permite realizar distintas funciones según el tipo de usuario que la utiliza:</p>
+                    <p class="appDescription lang" key="cepFlyP3"><b>Administrador:</b> Dar de alta a trabajadores, asignarlos al vuelo y visualizar su información. Necesita ser aprobado mediante login.</p>
+                    <p class="appDescription lang" key="cepFlyP4"><b>Cliente:</b> Puede comprar billetes y visualizar la información del vuelo. </p>
+                    <p class="appDescription lang" key="cepFlyP5">Es extensión de un proyecto anterior realizado en java sin interfaz gráfica. He aprendido conceptos básicos sobre la creación de layouts y activities.</p>
                 </div>
                 <img class="appImage" src="../assets/img/appImages/CepFlyLoginScreen.png" alt="cepFlyImage">
             </article>
@@ -50,6 +55,9 @@
                 <a href="https://www.instagram.com/aresu_dev/" target="_blank"><img src="../assets/icon/instagramIconWhite.png" alt="instagramIcon" class="instagramIcon"></a>
             </section>
         </footer>
-        <script src="../JS/main.js" type="text/javascript"></script>
+          <!--Scripting-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script src="../JS/main.js" type="text/javascript"></script> <!--NavBar sticky-->
+          <script src="../JS/lang.js" type="text/javascript"></script> <!--Language selector-->
     </body>
 </html>

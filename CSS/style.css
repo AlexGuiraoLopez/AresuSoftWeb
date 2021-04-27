@@ -52,7 +52,6 @@ box-sizing: border-box;
                 width: 70%;
             }
                 .myName h2{
-
                     font-size: 3vw;
                 }
             /*Avatar dentro de un círculo*/
@@ -205,15 +204,23 @@ box-sizing: border-box;
             font-size: 3vw;
         }
     .homeContent{
-        height: 220vw;
+        height: 195vw;
     }
     .mainBox{
         flex-flow: column nowrap;
         align-items: center;
     }
-    .myDescription p{
-        font-size: 3vw;
+    .myName h2{
+        margin:0;
+        font-size: 4.5vw;
     }
+    .myDescription{
+        width: 78%;
+        padding: 0;
+    }
+        .myDescription p{
+            font-size: 2.4vw;
+        }
     .breakLine{
         width: 5%;
         border-top: 1vw dotted rgb(114, 114, 114);

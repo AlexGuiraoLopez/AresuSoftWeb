@@ -7,6 +7,7 @@
     flex-flow: column nowrap;
     align-items: center;
     background-color: rgb(245, 226, 219);
+    height: 100%;
 }
     .mainImage{
         height: 4vw;
@@ -42,6 +43,9 @@
         }
 
 @media (max-width:600px){
+    .container{
+        height: 600px;
+    }
     .mainImage{
         height: 8vw;
     }
