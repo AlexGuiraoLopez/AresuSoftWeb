@@ -44,6 +44,17 @@ box-sizing: border-box;
             display: flex;
             flex-flow: row nowrap;
         }
+            .myName{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                padding: 3vw;
+                width: 70%;
+            }
+                .myName h2{
+
+                    font-size: 3vw;
+                }
             /*Avatar dentro de un círculo*/
             .circle{
                 padding-top: 2vw;

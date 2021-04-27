@@ -3,9 +3,13 @@
         "home":"Inicio",
         "games":"Videojuegos",
         "apps":"Aplicaciones",
-        "aboutMe":"Sobre mi",
+        "aboutMe":"Sobre mí",
         "contact":"Contacto",
-        "job":"- Desarrollador de software -"
+        "job":"- Desarrollador de software -",
+        "myDescription1":"Bienvenid@ a mi espacio personal donde encontrarás mis proyectos y podrás conocerme.",
+        "myDescription2":"Siéntete libre de explorar la web según el tipo de proyecto que buscas.",
+        "myDescription3":"Si tienes cualquier propuesta o crítica visita el apartado de contacto.",
+        "myDescription4":"(*Todos son proyectos en desarrollo, incluida esta web)"
     }, 
     "en":{
         "home":"Home",
@@ -13,6 +17,10 @@
         "apps":"Apps",
         "aboutMe":"About Me",
         "contact":"Contact",
-        "job":"- Software Developer -"
+        "job":"- Software Developer -",
+        "myDescription1":"Welcome to my space where I share all my projects to everyone.",
+        "myDescription2":"Feel free to check anything depending on the type of art you are looking for.",
+        "myDescription3":"Please contact me if you have an offer.",
+        "myDescription4":"(*All projects are still in development including this web site.)"
     }
 }
