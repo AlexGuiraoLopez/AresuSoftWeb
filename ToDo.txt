@@ -1,0 +1,4 @@
+- Mover iconos del footer arriba a la derecha.
+- Cambiar banderas por iniciales de paises con desplegable.
+- Unir secciones AboutMe + Contact.
+- Poner anclas desde la Home para que el contenido principal esté unificado en una misma página.
